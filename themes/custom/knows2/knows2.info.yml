@@ -22,4 +22,4 @@ regions:
 
 libraries-extend:
   bootstrap/framework:
- #   - knows2/framework
+    - knows2/framework
