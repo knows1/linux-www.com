@@ -1,8 +1,0 @@
-global-components:
-  version: VERSION
-  css:
-    theme:
-      'https://fonts.googleapis.com/css?family=Source Sans Pro:200,300,400':  { type: external, minified: true }
-      css/styles.css: {}
-  js:
-    js/script.js: {}
