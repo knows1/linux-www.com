@@ -1,42 +1,17 @@
-Modules extend your site functionality beyond Drupal core.
-
-WHAT TO PLACE IN THIS DIRECTORY?
---------------------------------
-
-Placing downloaded and custom modules in this directory separates downloaded and
-custom modules from Drupal core's modules. This allows Drupal core to be updated
-without overwriting these files.
-
-DOWNLOAD ADDITIONAL MODULES
----------------------------
-
-Contributed modules from the Drupal community may be downloaded at
-https://www.drupal.org/project/project_module.
-
-ORGANIZING MODULES IN THIS DIRECTORY
-------------------------------------
-
-You may create subdirectories in this directory, to organize your added modules,
-without breaking the site. Some common subdirectories include "contrib" for
-contributed modules, and "custom" for custom modules. Note that if you move a
-module to a subdirectory after it has been enabled, you may need to clear the
-Drupal cache so it can be found.
-
-There are number of directories that are ignored when looking for modules. These
-are 'src', 'lib', 'vendor', 'assets', 'css', 'files', 'images', 'js', 'misc',
-'templates', 'includes', 'fixtures' and 'Drupal'.
-
-MULTISITE CONFIGURATION
------------------------
-
-In multisite configurations, modules found in this directory are available to
-all sites. You may also put modules in the sites/all/modules directory, and the
-versions in sites/all/modules will take precedence over versions of the same
-module that are here. Alternatively, the sites/your_site_name/modules directory
-pattern may be used to restrict modules to a specific site instance.
-
-MORE INFORMATION
-----------------
-
-Refer to the “Developing for Drupal” section of the README.txt in the Drupal
-root directory for further information on extending Drupal with custom modules.
+README.txt           devel                       imagemagick                  pathauto
+admin_toolbar        ds                          inline_entity_form           rules
+advagg               empty_page                  jquery_ui                    scheduler
+antibot              entity_browser              jquery_ui_accordion          search_api
+background_image     entity_reference_revisions  jquery_ui_draggable          smart_trim
+bg_image_formatter   entity_usage                jquery_ui_droppable          sophron
+block_class          eu_cookie_compliance        layout_builder_restrictions  styles_api
+block_exclude_pages  extlink                     layout_library               superfish
+block_styles         features                    menu_block                   svg_image
+bootstrap_layouts    field_formatter_class       menu_item_extras             token
+ckeditor_font        field_group                 metatag                      twig_tweak
+color_field          file_mdm                    page_manager                 ultimenu-8.x-2.2.zip
+colorbox             flexslider                  panelbutton                  views_bootstrap
+colorbutton          fontawesome                 panelizer                    views_bulk_operations
+config_update        image_effects               panels                       views_infinite_scroll
+ctools               image_style_quality         paragraphs                   views_slideshow
+custom               imageapi_optimize           paragraphs_features
