@@ -15,3 +15,7 @@ colorbutton          fontawesome                 panelizer                    vi
 config_update        image_effects               panels                       views_infinite_scroll
 ctools               image_style_quality         paragraphs                   views_slideshow
 custom               imageapi_optimize           paragraphs_features
+
+
+block_exclude_page         redirect/        twig_vardumper/    simple_sitemap/  captcha/                   honeypot/              popup_field_group/        
+ entity/                 
