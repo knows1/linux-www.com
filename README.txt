@@ -32,4 +32,5 @@ bootstrap_layouts         dropzonejs               file_mdm                    p
 captcha                   ds                       flexslider                  panels                 slick_extras    views_infinite_scroll
 colorbox                  element_class_formatter  focal_point                 paragraphs             slick_views     views_slideshow
 colorbox_field_formatter  embed                    honeypot                    pathauto               superfish       webform
-colorbox_inline           entity                   imagemagick                 profile                token           we_megamenu
+colorbox_inline           entity                   imagemagick                 profile                token           we_megamenu 
+fences 
